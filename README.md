@@ -2,7 +2,7 @@
 ## Introducción
 Las líneas de código aquí recogidas tenían como objetivo la resolución de los problemas 18,67 y 81 de <a HREF="https://projecteuler.net/about"> Project Euler </a>. Más concretamente, el objetivo final se trata de resolver el problema 81:
 
-***********IMG**************
+<img src="https://github.com/Lba-29/calculo_caminos/blob/main/images/Enunciado.png" width="25%" height="25%">
 
 Lo he enfocado a encontrar no sólo el coste del camino más corto, sino la ruta que debe seguirse. Para el ejemplo del enunciado, el programa debe proporcionar  ```coste = 2427``` y además el camino que sigue: ```M[0,0]```, ```M[1,0]```, ```M[1,1]```, ```M[1,2]```, ```M[2,2]```, ```M[2,3]```, ```M[3,3]```, ```M[4,3]``` y ```M[4,4]```
 En los sucesivos apartados discuto qué algoritmos he utilizado y la estructura básica del programa.
