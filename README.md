@@ -22,7 +22,7 @@ Este problema es equivalente al problema 18 y 67 de Project Euler, y utilizo la 
 
 Para explicar la resolución del triángulo consideramos el ejemplo anterior: situándonos en la base, penúltima fila, la modificamos por otra equivalente sumando el elemento de la fila inferior que satisface la condición (en el problema 18, se trata de el mayor valor):
 
-<img src="https://github.com/Lba-29/path_sum/blob/main/images/abajo-arriba_matriz.png" width="100%" height="100%">
+<img src="https://github.com/Lba-29/path_sum/blob/main/images/abajo-arribapng.png" width="100%" height="100%">
 
 Así, el triángulo va reduciéndose en número de filas por otro equivalente cuya base tiene pesos actualizados conservando la información de la ruta más óptima en caso de continuar por dicho elemento de la fila.
 
@@ -38,7 +38,7 @@ La mananera de considerar esto es que antes de aplicar el algoritmo anterior, qu
 
 Ahora esta base se introduce en el triángulo ```up``` y se resuelve con el algoritmo que va de la base a la punta del triángulo, obteniéndose una única ruta y su coste:
 
-<img src="https://github.com/Lba-29/path_sum/blob/main/images/abajo-arribapng.png" width="100%" height="100%">
+<img src="https://github.com/Lba-29/path_sum/blob/main/images/abajo-arriba_matriz.png" width="100%" height="100%">
 
 ## Estructura del programa
 
